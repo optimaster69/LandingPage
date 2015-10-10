@@ -19,14 +19,7 @@
 
     <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 
-    <script type="text/javascript">
-	document.getElementById("downloadnow").addEventListener("click", displayDate);
-	function displayDate() {
-		window.alert(4);
-    	require(["mojo/signup-forms/Loader"],
-    	function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"92c8c1e801009df1e58b30af7","lid":"8673678a05"}) });
-	}
-    </script>
+
 
     <!-- Main stylesheet -->
     <link href="./TinyOwl_files/app.css" rel="stylesheet">
@@ -483,7 +476,14 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="./TinyOwl_files/jquery.min.js"></script>
 <script src="./TinyOwl_files/app.min.js"></script>
-
+    <script type="text/javascript">
+    document.getElementById("downloadnow").addEventListener("click", displayDate);
+    function displayDate() {
+        //window.alert(4);
+        require(["mojo/signup-forms/Loader"],
+        function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"92c8c1e801009df1e58b30af7","lid":"8673678a05"}) });
+    }
+    </script>
 
 
 
