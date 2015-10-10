@@ -14,8 +14,7 @@
 
     <!-- Adobe typekit -->
     <!-- todo: Update async to true. Try typekit advanced code to fix FOUT.-->
-    <script async="" src="./TinyOwl_files/fbds.js"></script><script async="" src="./TinyOwl_files/analytics.js"></script><script src="./TinyOwl_files/dlv6cnv.js"></script>
-    <style type="text/css">.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}</style><link rel="stylesheet" href="./TinyOwl_files/l" media="all"><script>try{Typekit.load({ async: false });}catch(e){}</script>
+    
 
 
     <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
@@ -23,6 +22,7 @@
     <script type="text/javascript">
 	document.getElementById("downloadnow").addEventListener("click", displayDate);
 	function displayDate() {
+		window.alert(4);
     	require(["mojo/signup-forms/Loader"],
     	function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"92c8c1e801009df1e58b30af7","lid":"8673678a05"}) });
 	}
