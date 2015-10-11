@@ -6268,7 +6268,7 @@ a.bg-white:focus {
   @media (max-width: 767px) {
     .home-first-fold {
       text-align: center;
-      background: url("portfolio-1.jpg") no-repeat 50% 90%;
+      background: url("getapp.png") no-repeat 50% 90%;
       -webkit-background-size: cover;
               background-size: cover;
       color: #ffffff; }
@@ -6349,23 +6349,23 @@ a.bg-white:focus {
       .why-simple-container i {
         font-size: 13px; } }
 
-.tinyowl-header-fixed {
+.Tripie-header-fixed {
   position: relative;
   background-color: #ffffff;
   border-color: transparent;
   -webkit-transition: all 0.25s linear;
        -o-transition: all 0.25s linear;
           transition: all 0.25s linear; }
-  .tinyowl-header-fixed .logo {
+  .Tripie-header-fixed .logo {
     height: 42px; }
-  .tinyowl-header-fixed .navbar {
+  .Tripie-header-fixed .navbar {
     background-color: #ffffff;
     border: none;
     margin-bottom: 0;
     padding: 15px 0; }
-    .tinyowl-header-fixed .navbar .right-column {
+    .Tripie-header-fixed .navbar .right-column {
       padding-top: 5px; }
-  .tinyowl-header-fixed.affix {
+  .Tripie-header-fixed.affix {
     position: fixed;
     z-index: 1000;
     top: 0;
@@ -6373,7 +6373,7 @@ a.bg-white:focus {
     left: 0;
     right: 0; }
   @media (max-width: 767px) {
-    .tinyowl-header-fixed .btn-primary {
+    .Tripie-header-fixed .btn-primary {
       padding: 6px; } }
 
 .simple-is-container {
