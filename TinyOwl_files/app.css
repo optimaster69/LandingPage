@@ -6268,7 +6268,7 @@ a.bg-white:focus {
   @media (max-width: 767px) {
     .home-first-fold {
       text-align: center;
-      background: url("lifestyle.png") no-repeat 50% 90%;
+      background: url("portfolio-1.jpg") no-repeat 50% 90%;
       -webkit-background-size: cover;
               background-size: cover;
       color: #ffffff; }
