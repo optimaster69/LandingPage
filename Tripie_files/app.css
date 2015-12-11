@@ -2152,6 +2152,9 @@ pre {
   .col-lg-offset-1 {
     margin-left: 8.33333%; }
 
+/*  .col-lg-offset-1_new {
+    margin-left: 2.33333%; }*/
+
   .col-lg-offset-2 {
     margin-left: 16.66667%; }
 
@@ -6234,7 +6237,7 @@ a.bg-white:focus {
     z-index: 20; }
   .home-first-fold .left-column {
     height: 500px;
-    padding-top: 160px;
+    padding-top: 10px;
     padding-bottom: 160px; }
     .home-first-fold .left-column .fold-title {
       font-size: 29px;
@@ -6268,7 +6271,8 @@ a.bg-white:focus {
   @media (max-width: 767px) {
     .home-first-fold {
       text-align: center;
-      background: url("getapp.png") no-repeat 50% 90%;
+      /*background: url("getapp.png") no-repeat 50% 90%;*/
+      <iframe width=90% height=width*9/16:  src="https://www.youtube.com/embed/Do4RyJmIikA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
       -webkit-background-size: cover;
               background-size: cover;
       color: #ffffff; }
@@ -6331,9 +6335,15 @@ a.bg-white:focus {
     position: relative;
     z-index: 20; }
   @media (min-width: 991px) {
+
     .why-simple-container {
       background-attachment: fixed; } }
   @media (max-width: 991px) {
+/*    .video{
+      width :95% ;
+      height: 55%;
+      margin-top: 67px;
+    }*/
     .why-simple-container {
       background-position: 70% 50%; }
       .why-simple-container h1 {
@@ -6341,6 +6351,11 @@ a.bg-white:focus {
       .why-simple-container i {
         font-size: 20px; } }
   @media (max-width: 767px) {
+    .video{
+      width :95% ;
+      height: 54%;
+      margin-top: 67px;
+    }
     .why-simple-container {
       background-position: 71% 50%; }
       .why-simple-container h1 {
