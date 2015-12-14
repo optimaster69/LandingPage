@@ -3790,7 +3790,7 @@ tbody.collapse.in {
 
 .navbar-brand {
   float: left;
-  padding: 15px 10px;
+  padding: 5px 5px;
   font-size: 18px;
   line-height: 20px;
   height: 50px; }
@@ -6137,9 +6137,9 @@ a.bg-white:focus {
   padding-top: 10px;
   padding-bottom: 10px; }
   .main-navbar .navbar-brand {
-    padding: 4px 10px 4px 0; }
+    padding: 0px 10px 4px 0; }
     .main-navbar .navbar-brand img {
-      height: 42px; }
+      height: 52px; }
   .main-navbar .navbar-nav > li > a {
     font-size: 12px;
     -webkit-transition: all 0.3s ease;
